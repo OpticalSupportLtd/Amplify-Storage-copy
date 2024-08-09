@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF8045412C665C3700901BF5 /* Amplify_StorageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045402C665C3700901BF5 /* Amplify_StorageApp.swift */; };
+		CF8045432C665C3700901BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045422C665C3700901BF5 /* ContentView.swift */; };
+		CF8045452C665C3B00901BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8045442C665C3B00901BF5 /* Assets.xcassets */; };
+		CF8045492C665C3B00901BF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8045482C665C3B00901BF5 /* Preview Assets.xcassets */; };
+		CF8045532C665C3B00901BF5 /* Amplify_StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045522C665C3B00901BF5 /* Amplify_StorageTests.swift */; };
+		CF80455D2C665C3B00901BF5 /* Amplify_StorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80455C2C665C3B00901BF5 /* Amplify_StorageUITests.swift */; };
+		CF80455F2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80455E2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF80454F2C665C3B00901BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8045352C665C3700901BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF80453C2C665C3700901BF5;
+			remoteInfo = "Amplify-Storage";
+		};
+		CF8045592C665C3B00901BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8045352C665C3700901BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF80453C2C665C3700901BF5;
+			remoteInfo = "Amplify-Storage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF80453D2C665C3700901BF5 /* Amplify-Storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amplify-Storage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8045402C665C3700901BF5 /* Amplify_StorageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageApp.swift; sourceTree = "<group>"; };
+		CF8045422C665C3700901BF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF8045442C665C3B00901BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF8045462C665C3B00901BF5 /* Amplify_Storage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Amplify_Storage.entitlements; sourceTree = "<group>"; };
+		CF8045482C665C3B00901BF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF80454E2C665C3B00901BF5 /* Amplify-StorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amplify-StorageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8045522C665C3B00901BF5 /* Amplify_StorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageTests.swift; sourceTree = "<group>"; };
+		CF8045582C665C3B00901BF5 /* Amplify-StorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amplify-StorageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF80455C2C665C3B00901BF5 /* Amplify_StorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageUITests.swift; sourceTree = "<group>"; };
+		CF80455E2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF80453A2C665C3700901BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80454B2C665C3B00901BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8045552C665C3B00901BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF8045342C665C3700901BF5 = {
+			isa = PBXGroup;
+			children = (
+				CF80453F2C665C3700901BF5 /* Amplify-Storage */,
+				CF8045512C665C3B00901BF5 /* Amplify-StorageTests */,
+				CF80455B2C665C3B00901BF5 /* Amplify-StorageUITests */,
+				CF80453E2C665C3700901BF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF80453E2C665C3700901BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF80453D2C665C3700901BF5 /* Amplify-Storage.app */,
+				CF80454E2C665C3B00901BF5 /* Amplify-StorageTests.xctest */,
+				CF8045582C665C3B00901BF5 /* Amplify-StorageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF80453F2C665C3700901BF5 /* Amplify-Storage */ = {
+			isa = PBXGroup;
+			children = (
+				CF8045402C665C3700901BF5 /* Amplify_StorageApp.swift */,
+				CF8045422C665C3700901BF5 /* ContentView.swift */,
+				CF8045442C665C3B00901BF5 /* Assets.xcassets */,
+				CF8045462C665C3B00901BF5 /* Amplify_Storage.entitlements */,
+				CF8045472C665C3B00901BF5 /* Preview Content */,
+			);
+			path = "Amplify-Storage";
+			sourceTree = "<group>";
+		};
+		CF8045472C665C3B00901BF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF8045482C665C3B00901BF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF8045512C665C3B00901BF5 /* Amplify-StorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF8045522C665C3B00901BF5 /* Amplify_StorageTests.swift */,
+			);
+			path = "Amplify-StorageTests";
+			sourceTree = "<group>";
+		};
+		CF80455B2C665C3B00901BF5 /* Amplify-StorageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF80455C2C665C3B00901BF5 /* Amplify_StorageUITests.swift */,
+				CF80455E2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift */,
+			);
+			path = "Amplify-StorageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF80453C2C665C3700901BF5 /* Amplify-Storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8045622C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-Storage" */;
+			buildPhases = (
+				CF8045392C665C3700901BF5 /* Sources */,
+				CF80453A2C665C3700901BF5 /* Frameworks */,
+				CF80453B2C665C3700901BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amplify-Storage";
+			productName = "Amplify-Storage";
+			productReference = CF80453D2C665C3700901BF5 /* Amplify-Storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF80454D2C665C3B00901BF5 /* Amplify-StorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8045652C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-StorageTests" */;
+			buildPhases = (
+				CF80454A2C665C3B00901BF5 /* Sources */,
+				CF80454B2C665C3B00901BF5 /* Frameworks */,
+				CF80454C2C665C3B00901BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF8045502C665C3B00901BF5 /* PBXTargetDependency */,
+			);
+			name = "Amplify-StorageTests";
+			productName = "Amplify-StorageTests";
+			productReference = CF80454E2C665C3B00901BF5 /* Amplify-StorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF8045572C665C3B00901BF5 /* Amplify-StorageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF8045682C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-StorageUITests" */;
+			buildPhases = (
+				CF8045542C665C3B00901BF5 /* Sources */,
+				CF8045552C665C3B00901BF5 /* Frameworks */,
+				CF8045562C665C3B00901BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF80455A2C665C3B00901BF5 /* PBXTargetDependency */,
+			);
+			name = "Amplify-StorageUITests";
+			productName = "Amplify-StorageUITests";
+			productReference = CF8045582C665C3B00901BF5 /* Amplify-StorageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF8045352C665C3700901BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CF80453C2C665C3700901BF5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CF80454D2C665C3B00901BF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF80453C2C665C3700901BF5;
+					};
+					CF8045572C665C3B00901BF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CF80453C2C665C3700901BF5;
+					};
+				};
+			};
+			buildConfigurationList = CF8045382C665C3700901BF5 /* Build configuration list for PBXProject "Amplify-Storage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF8045342C665C3700901BF5;
+			productRefGroup = CF80453E2C665C3700901BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF80453C2C665C3700901BF5 /* Amplify-Storage */,
+				CF80454D2C665C3B00901BF5 /* Amplify-StorageTests */,
+				CF8045572C665C3B00901BF5 /* Amplify-StorageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF80453B2C665C3700901BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8045492C665C3B00901BF5 /* Preview Assets.xcassets in Resources */,
+				CF8045452C665C3B00901BF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80454C2C665C3B00901BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8045562C665C3B00901BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF8045392C665C3700901BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8045432C665C3700901BF5 /* ContentView.swift in Sources */,
+				CF8045412C665C3700901BF5 /* Amplify_StorageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF80454A2C665C3B00901BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8045532C665C3B00901BF5 /* Amplify_StorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF8045542C665C3B00901BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF80455D2C665C3B00901BF5 /* Amplify_StorageUITests.swift in Sources */,
+				CF80455F2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF8045502C665C3B00901BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF80453C2C665C3700901BF5 /* Amplify-Storage */;
+			targetProxy = CF80454F2C665C3B00901BF5 /* PBXContainerItemProxy */;
+		};
+		CF80455A2C665C3B00901BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF80453C2C665C3700901BF5 /* Amplify-Storage */;
+			targetProxy = CF8045592C665C3B00901BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF8045602C665C3B00901BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF8045612C665C3B00901BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CF8045632C665C3B00901BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Amplify-Storage/Amplify_Storage.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amplify-Storage/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-Storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF8045642C665C3B00901BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Amplify-Storage/Amplify_Storage.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Amplify-Storage/Preview Content\"";
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-Storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF8045662C665C3B00901BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-StorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amplify-Storage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amplify-Storage";
+			};
+			name = Debug;
+		};
+		CF8045672C665C3B00901BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-StorageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amplify-Storage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Amplify-Storage";
+			};
+			name = Release;
+		};
+		CF8045692C665C3B00901BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-StorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amplify-Storage";
+			};
+			name = Debug;
+		};
+		CF80456A2C665C3B00901BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OpticalSupportLimited.Amplify-StorageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Amplify-Storage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF8045382C665C3700901BF5 /* Build configuration list for PBXProject "Amplify-Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8045602C665C3B00901BF5 /* Debug */,
+				CF8045612C665C3B00901BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8045622C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-Storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8045632C665C3B00901BF5 /* Debug */,
+				CF8045642C665C3B00901BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8045652C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-StorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8045662C665C3B00901BF5 /* Debug */,
+				CF8045672C665C3B00901BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF8045682C665C3B00901BF5 /* Build configuration list for PBXNativeTarget "Amplify-StorageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF8045692C665C3B00901BF5 /* Debug */,
+				CF80456A2C665C3B00901BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF8045352C665C3700901BF5 /* Project object */;
+}
