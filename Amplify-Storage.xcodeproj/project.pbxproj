@@ -14,6 +14,16 @@
 		CF8045532C665C3B00901BF5 /* Amplify_StorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045522C665C3B00901BF5 /* Amplify_StorageTests.swift */; };
 		CF80455D2C665C3B00901BF5 /* Amplify_StorageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80455C2C665C3B00901BF5 /* Amplify_StorageUITests.swift */; };
 		CF80455F2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80455E2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift */; };
+		CF80456C2C665E3A00901BF5 /* amplify_outputs.json in Resources */ = {isa = PBXBuildFile; fileRef = CF80456B2C665E3A00901BF5 /* amplify_outputs.json */; };
+		CF80456F2C665EE500901BF5 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = CF80456E2C665EE500901BF5 /* AWSCognitoAuthPlugin */; };
+		CF8045712C665EE500901BF5 /* Amplify in Frameworks */ = {isa = PBXBuildFile; productRef = CF8045702C665EE500901BF5 /* Amplify */; };
+		CF8045742C665F2200901BF5 /* Authenticator in Frameworks */ = {isa = PBXBuildFile; productRef = CF8045732C665F2200901BF5 /* Authenticator */; };
+		CF8045762C66608700901BF5 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045752C66608600901BF5 /* Todo.swift */; };
+		CF8045782C66609300901BF5 /* Todo+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045772C66609300901BF5 /* Todo+Schema.swift */; };
+		CF80457A2C6660AA00901BF5 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8045792C6660AA00901BF5 /* AmplifyModels.swift */; };
+		CF80457C2C6660FB00901BF5 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = CF80457B2C6660FB00901BF5 /* AWSAPIPlugin */; };
+		CF80457E2C66619A00901BF5 /* TodoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80457D2C66619A00901BF5 /* TodoViewModel.swift */; };
+		CF8045802C66630F00901BF5 /* TodoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF80457F2C66630F00901BF5 /* TodoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,12 @@
 		CF8045582C665C3B00901BF5 /* Amplify-StorageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amplify-StorageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF80455C2C665C3B00901BF5 /* Amplify_StorageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageUITests.swift; sourceTree = "<group>"; };
 		CF80455E2C665C3B00901BF5 /* Amplify_StorageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amplify_StorageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF80456B2C665E3A00901BF5 /* amplify_outputs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = amplify_outputs.json; path = "Amplify-Storage/amplify_outputs.json"; sourceTree = SOURCE_ROOT; };
+		CF8045752C66608600901BF5 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = SOURCE_ROOT; };
+		CF8045772C66609300901BF5 /* Todo+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+Schema.swift"; sourceTree = SOURCE_ROOT; };
+		CF8045792C6660AA00901BF5 /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = SOURCE_ROOT; };
+		CF80457D2C66619A00901BF5 /* TodoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewModel.swift; sourceTree = "<group>"; };
+		CF80457F2C66630F00901BF5 /* TodoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF80457C2C6660FB00901BF5 /* AWSAPIPlugin in Frameworks */,
+				CF80456F2C665EE500901BF5 /* AWSCognitoAuthPlugin in Frameworks */,
+				CF8045712C665EE500901BF5 /* Amplify in Frameworks */,
+				CF8045742C665F2200901BF5 /* Authenticator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,8 +116,14 @@
 			isa = PBXGroup;
 			children = (
 				CF8045402C665C3700901BF5 /* Amplify_StorageApp.swift */,
+				CF80457D2C66619A00901BF5 /* TodoViewModel.swift */,
 				CF8045422C665C3700901BF5 /* ContentView.swift */,
+				CF8045752C66608600901BF5 /* Todo.swift */,
+				CF8045772C66609300901BF5 /* Todo+Schema.swift */,
+				CF8045792C6660AA00901BF5 /* AmplifyModels.swift */,
+				CF80457F2C66630F00901BF5 /* TodoRow.swift */,
 				CF8045442C665C3B00901BF5 /* Assets.xcassets */,
+				CF80456B2C665E3A00901BF5 /* amplify_outputs.json */,
 				CF8045462C665C3B00901BF5 /* Amplify_Storage.entitlements */,
 				CF8045472C665C3B00901BF5 /* Preview Content */,
 			);
@@ -145,6 +171,12 @@
 			dependencies = (
 			);
 			name = "Amplify-Storage";
+			packageProductDependencies = (
+				CF80456E2C665EE500901BF5 /* AWSCognitoAuthPlugin */,
+				CF8045702C665EE500901BF5 /* Amplify */,
+				CF8045732C665F2200901BF5 /* Authenticator */,
+				CF80457B2C6660FB00901BF5 /* AWSAPIPlugin */,
+			);
 			productName = "Amplify-Storage";
 			productReference = CF80453D2C665C3700901BF5 /* Amplify-Storage.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +249,10 @@
 				Base,
 			);
 			mainGroup = CF8045342C665C3700901BF5;
+			packageReferences = (
+				CF80456D2C665EE400901BF5 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+				CF8045722C665F2200901BF5 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */,
+			);
 			productRefGroup = CF80453E2C665C3700901BF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF80456C2C665E3A00901BF5 /* amplify_outputs.json in Resources */,
 				CF8045492C665C3B00901BF5 /* Preview Assets.xcassets in Resources */,
 				CF8045452C665C3B00901BF5 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF80457E2C66619A00901BF5 /* TodoViewModel.swift in Sources */,
+				CF8045802C66630F00901BF5 /* TodoRow.swift in Sources */,
+				CF80457A2C6660AA00901BF5 /* AmplifyModels.swift in Sources */,
 				CF8045432C665C3700901BF5 /* ContentView.swift in Sources */,
+				CF8045762C66608700901BF5 /* Todo.swift in Sources */,
+				CF8045782C66609300901BF5 /* Todo+Schema.swift in Sources */,
 				CF8045412C665C3700901BF5 /* Amplify_StorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +465,7 @@
 				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -461,6 +504,7 @@
 				DEVELOPMENT_TEAM = 5ZK6D32Z6F;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -617,6 +661,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF80456D2C665EE400901BF5 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.36.0;
+			};
+		};
+		CF8045722C665F2200901BF5 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-ui-swift-authenticator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF80456E2C665EE500901BF5 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF80456D2C665EE400901BF5 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		CF8045702C665EE500901BF5 /* Amplify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF80456D2C665EE400901BF5 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = Amplify;
+		};
+		CF8045732C665F2200901BF5 /* Authenticator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF8045722C665F2200901BF5 /* XCRemoteSwiftPackageReference "amplify-ui-swift-authenticator" */;
+			productName = Authenticator;
+		};
+		CF80457B2C6660FB00901BF5 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF80456D2C665EE400901BF5 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CF8045352C665C3700901BF5 /* Project object */;
 }
