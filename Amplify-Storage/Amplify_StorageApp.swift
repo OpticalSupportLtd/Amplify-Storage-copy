@@ -7,6 +7,7 @@
 import Amplify
 import AWSCognitoAuthPlugin
 import AWSAPIPlugin
+import AWSS3StoragePlugin
 import SwiftUI
 import Authenticator
 
@@ -18,7 +19,11 @@ struct Amplify_StorageApp: App {
         do {
             try Amplify.add(plugin: AWSCognitoAuthPlugin())
             try Amplify.add(plugin: awsApiPlugin)
+            try Amplify.add(plugin: AWSS3StoragePlugin())
             try Amplify.configure(with: .amplifyOutputs)
+            
+            print("Amplify configured with auth plugin")
+                            
         } catch {
             print("Unable to configure Amplify \(error)")
         }

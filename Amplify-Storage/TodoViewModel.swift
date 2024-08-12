@@ -6,6 +6,7 @@
 //
 import Amplify
 import SwiftUI
+import class Amplify.List
 
 @MainActor
 class TodoViewModel: ObservableObject {
@@ -89,6 +90,4 @@ class TodoViewModel: ObservableObject {
            }
        }
    }
-#Preview {
-    TodoViewModel()
-}
+

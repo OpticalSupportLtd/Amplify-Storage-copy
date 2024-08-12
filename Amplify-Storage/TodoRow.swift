@@ -16,7 +16,7 @@ struct TodoRow: View {
             Text(todo.content ?? "")
         }
         .toggleStyle(.switch)
-        .onChange(of: todo.isDone) { _, newValue in
+        .onChange(of: todo.isDone) { newValue in
             var updatedTodo = todo
             updatedTodo.isDone = newValue
             Task { await vm.updateTodo(todo: updatedTodo) }
@@ -28,3 +28,4 @@ struct TodoRow: View {
     @State var todo = Todo(content: "Hello Todo World 20240706T15:23:42.256Z", isDone: false)
     return TodoRow(vm: TodoViewModel(), todo: $todo)
 }
+
