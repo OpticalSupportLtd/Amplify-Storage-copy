@@ -1,0 +1,6 @@
+framework module Pods_Amplify_Storage_Amplify_StorageUITests {
+  umbrella header "Pods-Amplify-Storage-Amplify-StorageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
